@@ -4,6 +4,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import java.util.Arrays;
 
+//JsonIgnoreProperties to ignore the 'company' key in the JSON file, which is not present in the Student class
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Student {
     private int id;
